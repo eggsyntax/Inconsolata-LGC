@@ -1,5 +1,26 @@
-Inconsolata LGC
+Inconsolata LGC Short
 ---------------
+
+This is a minor modification of https://github.com/MihailJP/Inconsolata-LGC
+to shorten line height. Inconsolata-LGC adds Cyrillic chars, bold, and italic,
+and has a VERY high line height, I'm guessing to accommodate the Cyrillic.
+But it was much higher than the true Inconsolata, and didn't work for me,
+so I took a quick stab at fixing it.
+
+Line height was adjusted in FontForge, using the
+instructions at http://designwithfontforge.com/en-US/Line_Spacing.html.
+
+Caveat -- this is the very first time I've ever messed with fonts, and I
+didn't really learn much of anything in advance (although I've been a bit
+of a typography geek for years). Apparently Levien's Inconsolata is destined
+for more weights as well as italic. This is just a quick stopgap until then.
+
+Note that this version includes the .ttf files in the same dir as the
+.sfd files, unlike the original Inconsolata-LGC.
+
+- Egg Syntax
+
+-------- Begin original README:
 
 Inconsolata is one of the most suitable font for programmers created by Raph
 Levien. Since the original Inconsolata does not contain Cyrillic alphabet,
